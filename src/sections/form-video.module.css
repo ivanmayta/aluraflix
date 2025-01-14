@@ -1,0 +1,112 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.form {
+    display: grid;
+    gap: 24px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 500;
+}
+
+.input,
+.select,
+.textarea {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.error {
+    color: #dc2626;
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
+.textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.button {
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex: 1;
+}
+
+.primary {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+
+.primary:hover {
+    background-color: #1d4ed8;
+}
+
+.secondary {
+    background-color: transparent;
+    border: 1px solid #e0e0e0;
+    color: #666;
+}
+
+.secondary:hover {
+    background-color: #f4f4f4;
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 16px;
+    }
+
+    .buttonGroup {
+        flex-direction: column;
+    }
+}

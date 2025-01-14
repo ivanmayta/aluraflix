@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.img {
+    height: 2rem;
+}
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.link {
+    display: flex;
+    gap: 2px;
+}
+
+.link:hover {
+    animation: ease-in-out;
+    scale: 1.02;
+}

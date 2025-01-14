@@ -1,0 +1,10 @@
+POST http://localhost:3000/videos 
+content-type: application/json
+
+{
+    "titulo": "Introducción a React",
+    "categoria": 1,
+    "imagen": "https://example.com/imagen-react.jpg",
+    "video": "https://example.com/video-react.mp4",
+    "description": "Un curso básico sobre cómo empezar a desarrollar aplicaciones con React."
+  }

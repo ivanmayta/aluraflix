@@ -1,0 +1,10 @@
+.footer {
+    margin-top: auto;
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.img {
+    height: 2rem;
+}
