@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react"
 import { getData } from "../services/ge-videos"
 import { postVideo } from "../services/post-videos"
+import { CategoryBadge } from "../components/category-badge"
+import styles from "./videos.module.css"
+import CardVideo from "../components/video-card"
 
 export default function Videos() {
     const [videos, setVideos] = useState([])
@@ -44,16 +47,17 @@ export default function Videos() {
             {categories.map(({ category, id }) => {
                 const content = videos.filter((video) => video.categoria == id)
                 return (
-                    <article key={id}>
-                        <h1>{category}</h1>
-                        <ul>
+                    <article className={styles.container} key={id}>
+                        <CategoryBadge title={category} />
+                        <div className={styles.grid}>
                             {content.map((video, index) => (
-                                <li key={index}>
-                                    <h3>{video.titulo}</h3>
-                                    <p>{video.description}</p>
-                                </li>
+                                <CardVideo
+                                    key={index}
+                                    titulo={video.titulo}
+                                    imageUrl={video.imageUrl}
+                                />
                             ))}
-                        </ul>
+                        </div>
                     </article>
                 )
             })}
