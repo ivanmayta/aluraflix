@@ -1,0 +1,8 @@
+.title {
+    display: inline-block;
+    text-align: center;
+    padding: 0 6px;
+    border-radius: 0.2rem;
+    color: black;
+    opacity: 0.85;
+}
