@@ -1,270 +1,85 @@
 {
-  "videos": [
-    {
-      "titulo": "Introducción a React",
-      "categoria": 1,
-      "imagen": "https://example.com/imagen-react.jpg",
-      "video": "https://example.com/video-react.mp4",
-      "description": "Un curso básico sobre cómo empezar a desarrollar aplicaciones con React."
-    },
-    {
-      "titulo": "APIs RESTful con Node.js",
-      "categoria": 2,
-      "imagen": "https://example.com/imagen-node.jpg",
-      "video": "https://example.com/video-node.mp4",
-      "description": "Aprende a crear APIs RESTful utilizando Node.js y Express."
-    },
-    {
-      "titulo": "Tendencias en Innovación Tecnológica",
-      "categoria": 3,
-      "imagen": "https://example.com/imagen-innovacion.jpg",
-      "video": "https://example.com/video-innovacion.mp4",
-      "description": "Explora las últimas tendencias en innovación tecnológica y su impacto en la industria."
-    },
-    {
-      "titulo": "Introducción a React",
-      "categoria": 1,
-      "imagen": "https://example.com/imagen-react.jpg",
-      "video": "https://example.com/video-react.mp4",
-      "description": "Un curso básico sobre cómo empezar a desarrollar aplicaciones con React."
-    },
-    {
-      "titulo": "APIs RESTful con Node.js",
-      "categoria": 2,
-      "imagen": "https://example.com/imagen-node.jpg",
-      "video": "https://example.com/video-node.mp4",
-      "description": "Aprende a crear APIs RESTful utilizando Node.js y Express."
-    },
-    {
-      "titulo": "Tendencias en Innovación Tecnológica",
-      "categoria": 3,
-      "imagen": "https://example.com/imagen-innovacion.jpg",
-      "video": "https://example.com/video-innovacion.mp4",
-      "description": "Explora las últimas tendencias en innovación tecnológica y su impacto en la industria."
-    },
-    {
-      "id": "7a13",
-      "titulo": "Introducción a React",
-      "categoria": 1,
-      "imagen": "https://example.com/imagen-react.jpg",
-      "video": "https://example.com/video-react.mp4",
-      "description": "Un curso básico sobre cómo empezar a desarrollar aplicaciones con React."
-    },
-    {
-      "id": "1473",
-      "titulo": "Tendencias en Innovación Tecnológica",
-      "categoria": 3,
-      "imagen": "https://example.com/imagen-innovacion.jpg",
-      "video": "https://example.com/video-innovacion.mp4",
-      "description": "Explora las últimas tendencias en innovación tecnológica y su impacto en la industria."
-    },
-    {
-      "id": "a984",
-      "titulo": "Tendencias en Innovación Tecnológica",
-      "categoria": 3,
-      "imagen": "https://example.com/imagen-innovacion.jpg",
-      "video": "https://example.com/video-innovacion.mp4",
-      "description": "Explora las últimas tendencias en innovación tecnológica y su impacto en la industria."
-    },
-    {
-      "id": "a171",
-      "titulo": "Tendencias en Innovación Tecnológica",
-      "categoria": 3,
-      "imagen": "https://example.com/imagen-innovacion.jpg",
-      "video": "https://example.com/video-innovacion.mp4",
-      "description": "Explora las últimas tendencias en innovación tecnológica y su impacto en la industria."
-    },
-    {
-      "id": "f35a",
-      "title": "asdasd",
-      "category": "frontend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asd"
-    },
-    {
-      "id": "5fe1",
-      "title": "asdasd",
-      "category": "frontend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asd"
-    },
-    {
-      "id": "3568",
-      "title": "asdasd",
-      "category": "frontend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asd"
-    },
-    {
-      "id": "b97f",
-      "title": "asdasd",
-      "category": "frontend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asd"
-    },
-    {
-      "id": "88c4",
-      "title": "asdasd",
-      "category": "frontend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asd"
-    },
-    {
-      "id": "25b5",
-      "title": "asd",
-      "category": "backend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "nose"
-    },
-    {
-      "id": "c70c",
-      "title": "asd",
-      "category": "backend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "4479",
-      "title": "titlo",
-      "category": "frontend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "ea69",
-      "title": "titlo",
-      "category": "frontend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "4fda",
-      "title": "asd",
-      "category": "backend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "ea12",
-      "title": "asd",
-      "category": "backend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "fbf0",
-      "title": "asd",
-      "category": "backend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "a6b5",
-      "title": "asd",
-      "category": "backend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "0d05",
-      "title": "asd",
-      "category": "backend",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "79b3",
-      "title": "asdas",
-      "categoria": "",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "8462",
-      "title": "asd",
-      "categoria": "",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "sadas",
-      "category": "2"
-    },
-    {
-      "id": "abd7",
-      "title": "asdas",
-      "categoria": "",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "405b",
-      "title": "asd",
-      "categoria": "1",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdas"
-    },
-    {
-      "id": "ca42",
-      "title": "asdasdasdas",
-      "categoria": "",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "no se de que trata la verdad"
-    },
-    {
-      "id": "4ebd",
-      "title": "asdasdasd",
-      "categoria": "2",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "este si sale ? "
-    },
-    {
-      "id": "85ba",
-      "titulo": "ahora si guapo",
-      "categoria": "1",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "a ver..........\n",
-      "title": "d"
-    },
-    {
-      "id": "8d3c",
-      "titulo": "asd",
-      "categoria": "1",
-      "imageUrl": "https:/image.com",
-      "videoUrl": "https://image.com",
-      "description": "asdasdasdasd"
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "category": "Front End"
-    },
-    {
-      "id": 2,
-      "category": "Back End"
-    },
-    {
-      "id": 3,
-      "category": "Innovación y gestion"
-    }
-  ]
+    "videos": [
+        {
+            "titulo": "Cuándo usar let, var y const? #AluraMás",
+            "categoria": 1,
+            "imageUrl": "https://i.ytimg.com/vi_webp/PztCEdIJITY/hqdefault.webp",
+            "videoUrl": "https://youtu.be/PztCEdIJITY",
+            "description": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript."
+        },
+        {
+            "titulo": "¿Qué es JavaScript?",
+            "categoria": 1,
+            "imageUrl": "https://i.ytimg.com/vi/GJfOSoaXk4s/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAT6_IgPS6pW3DMYSkld-hw5P9nlA",
+            "videoUrl": "https://www.youtube.com/watch?v=GJfOSoaXk4s",
+            "description": "Aprende a crear APIs RESTful utilizando Node.js y Express."
+        },
+        {
+            "titulo": "Equipo Front End #AluraMás",
+            "categoria": 1,
+            "imageUrl": "https://i.ytimg.com/vi/rpvrLaBQwgg/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAQxk9cpPn1hN2prxggS2_Y-6okQQ",
+            "videoUrl": "https://youtu.be/rpvrLaBQwgg",
+            "description": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?"
+        },
+        {
+            "titulo": "Spring Framework. ¿Qué es ? #AluraMás",
+            "categoria": 2,
+            "imageUrl": "https://i.ytimg.com/vi/t-iqt1b2qqk/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB1XrTBRXTQds03NDM8QY-ftIFa7Q",
+            "videoUrl": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
+            "description": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda."
+        },
+
+        {
+            "titulo": "¿Qué es SQL y NoSQL?",
+            "categoria": 2,
+            "imageUrl": "https://i.ytimg.com/vi/cLLKVd5CNLc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCzKbQACJvySeyvpS9Mg6hv5aFTsw",
+            "videoUrl": "https://www.youtube.com/watch?v=cLLKVd5CNLc",
+            "description": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este..."
+        },
+        {
+            "titulo": "Simplificando tu código en Java: Conoce los enum #AluraMás",
+            "categoria": 2,
+            "imageUrl": "https://i.ytimg.com/vi/EoPvlE85XAQ/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC800m66m_O-z6KzWiuAn7uxAU73w",
+            "videoUrl": "https://www.youtube.com/watch?v=EoPvlE85XAQ",
+            "description": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? En este Alura+ la instructora Génesys Rondón nos enseña a simplifica..."
+        },
+        {
+            "id": "7a13",
+            "titulo": "¿Qué son las Soft Skills?",
+            "categoria": 3,
+            "imageUrl": "https://i.ytimg.com/vi/vhwspfvI52k/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBqqwu3bbIMdLCgoT0VFygsE_hlIw",
+            "videoUrl": "https://www.youtube.com/watch?v=vhwspfvI52k&t=32s",
+            "description": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas..."
+        },
+        {
+            "id": "1473",
+            "titulo": "7 Soft Skills más demandadas de 2024 #AluraMás",
+            "categoria": 3,
+            "imageUrl": "https://i.ytimg.com/vi/YhR7Zp8NUzE/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAuk9_A9zORuDU83x7R_K1CjUz6qA",
+            "videoUrl": "https://www.youtube.com/watch?v=_-9grhDhxiU",
+            "description": "Siempre estamos hablando aquí en el canal de Alura Latam sobre la importancia de las Soft Skills, y en este video vamos a listar las 7 habilidades blandas más demandadas por las empresas..."
+        },
+        {
+            "id": "a984",
+            "titulo": "¿Qué son las metodologias ágiles?",
+            "categoria": 3,
+            "imageUrl": "https://i.ytimg.com/vi/6N3OkLCfK-0/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAK5kPdElb3PmJRCbBlIpirxsGNUw",
+            "videoUrl": "https://www.youtube.com/watch?v=6N3OkLCfK-0",
+            "description": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios..."
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "category": "Front End"
+        },
+        {
+            "id": 2,
+            "category": "Back End"
+        },
+        {
+            "id": 3,
+            "category": "Innovación y gestion"
+        }
+    ]
 }
