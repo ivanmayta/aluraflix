@@ -27,6 +27,12 @@ export default function Videos() {
         return <div>Cargando...</div>
     }
 
+    const handleVideoDeleted = (deletedVideoId) => {
+        setVideos((prevVideos) =>
+            prevVideos.filter((video) => video.id !== deletedVideoId)
+        )
+    }
+
     return (
         <section>
             {categories.map(({ category, id }) => {
@@ -40,6 +46,7 @@ export default function Videos() {
                                     key={index}
                                     video={video}
                                     categories={categories}
+                                    onVideoDeleted={handleVideoDeleted}
                                 />
                             ))}
                         </div>

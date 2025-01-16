@@ -1,6 +1,7 @@
 import { useState } from "react"
 import styles from "./edit-dialog.module.css"
 import { X } from "lucide-react"
+import { putVideo } from "../services/put-video"
 
 export default function EditDialog({ isOpen, onClose, video, categories }) {
     const [formData, setFormData] = useState(video)
@@ -9,6 +10,7 @@ export default function EditDialog({ isOpen, onClose, video, categories }) {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        putVideo(formData)
         console.log(formData)
         onClose()
     }

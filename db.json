@@ -1,13 +1,15 @@
 {
     "videos": [
-        {
-            "titulo": "Cuándo usar let, var y const? #AluraMás",
+        {   
+            "id": "1",
+            "titulo": "Cuándo usar let, var y const? #Alura",
             "categoria": 1,
             "imageUrl": "https://i.ytimg.com/vi_webp/PztCEdIJITY/hqdefault.webp",
             "videoUrl": "https://youtu.be/PztCEdIJITY",
             "description": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript."
         },
         {
+            "id": "2",
             "titulo": "¿Qué es JavaScript?",
             "categoria": 1,
             "imageUrl": "https://i.ytimg.com/vi/GJfOSoaXk4s/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAT6_IgPS6pW3DMYSkld-hw5P9nlA",
@@ -15,6 +17,7 @@
             "description": "Aprende a crear APIs RESTful utilizando Node.js y Express."
         },
         {
+            "id": "3",
             "titulo": "Equipo Front End #AluraMás",
             "categoria": 1,
             "imageUrl": "https://i.ytimg.com/vi/rpvrLaBQwgg/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAQxk9cpPn1hN2prxggS2_Y-6okQQ",
@@ -22,14 +25,15 @@
             "description": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?"
         },
         {
+            "id": "4",
             "titulo": "Spring Framework. ¿Qué es ? #AluraMás",
             "categoria": 2,
             "imageUrl": "https://i.ytimg.com/vi/t-iqt1b2qqk/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB1XrTBRXTQds03NDM8QY-ftIFa7Q",
             "videoUrl": "https://www.youtube.com/watch?v=t-iqt1b2qqk",
             "description": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda."
         },
-
         {
+            "id": "5",
             "titulo": "¿Qué es SQL y NoSQL?",
             "categoria": 2,
             "imageUrl": "https://i.ytimg.com/vi/cLLKVd5CNLc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCzKbQACJvySeyvpS9Mg6hv5aFTsw",
@@ -37,6 +41,7 @@
             "description": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este..."
         },
         {
+            "id": "6",
             "titulo": "Simplificando tu código en Java: Conoce los enum #AluraMás",
             "categoria": 2,
             "imageUrl": "https://i.ytimg.com/vi/EoPvlE85XAQ/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC800m66m_O-z6KzWiuAn7uxAU73w",
