@@ -6,7 +6,6 @@ export default function Home() {
         <>
             <Banner />
             <section>
-                <h1>Cursos alura</h1>
                 <Videos />
             </section>
         </>
